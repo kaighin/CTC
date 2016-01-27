@@ -15,7 +15,7 @@ This can happen if your sample size is too small, causing the estimated covarian
 
 ## Reference
 If you publish work that uses this code, please cite:
->McColl, K.A., A. Roy, C. Derksen, A.G. Konings, S.H. Alemohammad, D. Entekhabi (2016). Triple collocation for binary and categorical variables: Application to validating landscape freeze/thaw retrievals. Remote Sensing of Environment (in press).
+>McColl, K.A., A. Roy, C. Derksen, A.G. Konings, S.H. Alemohammad, D. Entekhabi (2016). Triple collocation for binary and categorical variables: Application to validating landscape freeze/thaw retrievals. Remote Sensing of Environment, vol. 176, pp. 31-42.
 
 ## Disclaimer
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
