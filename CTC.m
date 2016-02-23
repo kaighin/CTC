@@ -1,7 +1,7 @@
 function [rank_est, w] = CTC(y)
 % CTC.m
 %
-% Categorical Triple Collocation (ETC) is a technique for estimating the
+% Categorical Triple Collocation (CTC) is a technique for estimating the
 % relative performance rankings of three measurement systems (e.g.,
 % satellite, in-situ and model-based products) based on their measurements
 % of a binary/categorical variable with unknown true value (e.g., landscape
@@ -28,7 +28,7 @@ function [rank_est, w] = CTC(y)
 % McColl, K.A., A. Roy, C. Derksen, A.G. Konings, S.H. Alemohammad, D.
 % Entekhabi (2016). Triple collocation for binary and categorical
 % variables: Application to validating landscape freeze/thaw retrievals.
-% Remote Sensing of Environment (in press).
+% Remote Sensing of Environment, vol. 176, pp. 31-42.
 %
 % If you use CTC, please cite this paper where appropriate.
 %
@@ -57,7 +57,7 @@ function [rank_est, w] = CTC(y)
     end
     
     if length(unique(y(:,1))) == 1 || length(unique(y(:,2))) == 1 || length(unique(y(:,3))) == 1 
-        error('Error: the sample variance of each of the columns of y must be non-zero. Increase your sample size or reconsider using ETC.');
+        error('Error: the sample variance of each of the columns of y must be non-zero. Increase your sample size or reconsider using CTC.');
     end
     
     % Estimate covariance matrix of the three measurement systems
